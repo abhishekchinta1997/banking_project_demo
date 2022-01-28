@@ -1,0 +1,279 @@
+2022-01-26 16:09:57,746  INFO [main] BANKING:14 - Browser Opened
+ 2022-01-26 16:10:01,796  INFO [main] BANKING:17 - URL Opened
+ 2022-01-26 16:10:01,882  INFO [main] BANKING:21 - Entered Username
+ 2022-01-26 16:10:01,936  INFO [main] BANKING:24 - Entered Password
+ 2022-01-26 16:10:02,687  INFO [main] BANKING:31 - User Logged In
+ 2022-01-26 16:10:02,687  INFO [main] BANKING:32 - Login Test Passed
+ 2022-01-26 16:18:37,923  INFO [main] BANKING:14 - Browser Opened
+ 2022-01-26 16:18:47,591  INFO [main] BANKING:17 - URL Opened
+ 2022-01-26 16:18:47,678  INFO [main] BANKING:21 - Entered Username
+ 2022-01-26 16:18:47,730  INFO [main] BANKING:24 - Entered Password
+ 2022-01-26 16:18:48,518  INFO [main] BANKING:31 - User Logged In
+ 2022-01-26 16:18:48,519  INFO [main] BANKING:32 - Login Test Passed
+ 2022-01-26 16:18:48,717  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@47289387: 0 ms
+ 2022-01-26 16:18:48,737  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@21694e53: 20 ms
+ 2022-01-26 16:18:48,766  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@7a11c4c7: 28 ms
+ 2022-01-26 16:18:48,766  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@4cc547a: 0 ms
+ 2022-01-26 16:18:48,770  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@5cc5b667: 4 ms
+ 2022-01-26 16:18:48,775  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@548e76f1: 4 ms
+ 2022-01-26 16:18:48,779  INFO [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@59a67c3a: 4 ms
+ 2022-01-26 16:22:14,333  INFO [main] BANKING:14 - Browser Opened
+ 2022-01-26 16:22:21,480  INFO [main] BANKING:17 - URL Opened
+ 2022-01-26 16:22:21,564  INFO [main] BANKING:21 - Entered Username
+ 2022-01-26 16:22:21,615  INFO [main] BANKING:24 - Entered Password
+ 2022-01-26 16:22:27,197  INFO [main] BANKING:31 - User Logged In
+ 2022-01-26 16:22:27,197  INFO [main] BANKING:32 - Login Test Passed
+ 2022-01-26 17:38:59,123  INFO [main] BANKING:14 - Browser Opened
+ 2022-01-26 17:39:02,992  INFO [main] BANKING:17 - URL Opened
+ 2022-01-26 17:39:03,072  INFO [main] BANKING:21 - Entered Username
+ 2022-01-26 17:39:03,131  INFO [main] BANKING:24 - Entered Password
+ 2022-01-26 17:39:04,265  INFO [main] BANKING:31 - User Logged In
+ 2022-01-26 17:39:04,265  INFO [main] BANKING:32 - Login Test Passed
+ 2022-01-26 18:03:51,791  INFO [main] BANKING:38 - Chrome Browser Opened
+ 2022-01-26 18:03:58,073  INFO [main] BANKING:54 - URL Opened
+ 2022-01-26 18:03:58,161  INFO [main] BANKING:16 - Entered Username
+ 2022-01-26 18:03:58,213  INFO [main] BANKING:19 - Entered Password
+ 2022-01-26 18:03:59,284  INFO [main] BANKING:26 - User Logged In
+ 2022-01-26 18:03:59,284  INFO [main] BANKING:27 - Login Test Passed
+ 2022-01-26 18:04:28,190  INFO [main] BANKING:44 - Firefox Browser Opened
+ 2022-01-26 18:04:32,029  INFO [main] BANKING:54 - URL Opened
+ 2022-01-26 18:04:32,093  INFO [main] BANKING:16 - Entered Username
+ 2022-01-26 18:04:32,125  INFO [main] BANKING:19 - Entered Password
+ 2022-01-26 18:04:33,411  INFO [main] BANKING:26 - User Logged In
+ 2022-01-26 18:04:33,411  INFO [main] BANKING:27 - Login Test Passed
+ 2022-01-26 18:05:16,948  INFO [main] BANKING:50 - Microsoft Edge Browser Opened
+ 2022-01-26 18:05:23,229  INFO [main] BANKING:54 - URL Opened
+ 2022-01-26 18:05:23,324  INFO [main] BANKING:16 - Entered Username
+ 2022-01-26 18:05:23,383  INFO [main] BANKING:19 - Entered Password
+ 2022-01-26 18:05:24,157  INFO [main] BANKING:26 - User Logged In
+ 2022-01-26 18:05:24,157  INFO [main] BANKING:27 - Login Test Passed
+ 2022-01-26 19:30:34,764  INFO [main] BANKING:38 - Chrome Browser Opened
+ 2022-01-26 19:30:41,461  INFO [main] BANKING:54 - URL Opened
+ 2022-01-26 19:30:41,552  INFO [main] BANKING:16 - Entered Username
+ 2022-01-26 19:30:41,604  INFO [main] BANKING:19 - Entered Password
+ 2022-01-26 19:30:42,333  INFO [main] BANKING:26 - User Logged In
+ 2022-01-26 19:30:42,333  INFO [main] BANKING:27 - Login Test Passed
+ 2022-01-26 19:30:42,535 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,536 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+ 2022-01-26 19:30:42,539 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+ 2022-01-26 19:30:42,539 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+ 2022-01-26 19:30:42,656 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,656 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+ 2022-01-26 19:30:42,656 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+ 2022-01-26 19:30:42,657 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+ 2022-01-26 19:30:42,659 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,659 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+ 2022-01-26 19:30:42,660 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+ 2022-01-26 19:30:42,661 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+ 2022-01-26 19:30:42,666 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,667 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+ 2022-01-26 19:30:42,668 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+ 2022-01-26 19:30:42,668 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+ 2022-01-26 19:30:42,676 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,677 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+ 2022-01-26 19:30:42,677 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+ 2022-01-26 19:30:42,677 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+ 2022-01-26 19:30:42,687 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,687 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+ 2022-01-26 19:30:42,687 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+ 2022-01-26 19:30:42,688 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+ 2022-01-26 19:30:42,696 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,697 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+ 2022-01-26 19:30:42,698 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+ 2022-01-26 19:30:42,698 DEBUG [main] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+ 2022-01-26 19:30:42,700 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,701 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+ 2022-01-26 19:30:42,702 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+ 2022-01-26 19:30:42,702 DEBUG [main] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+ 2022-01-26 19:30:42,704 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,705 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+ 2022-01-26 19:30:42,706 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+ 2022-01-26 19:30:42,706 DEBUG [main] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+ 2022-01-26 19:30:42,708 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,709 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+ 2022-01-26 19:30:42,709 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+ 2022-01-26 19:30:42,709 DEBUG [main] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+ 2022-01-26 19:30:42,715 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:30:42,715 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+ 2022-01-26 19:30:42,715 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+ 2022-01-26 19:30:42,716 DEBUG [main] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+ 2022-01-26 19:36:20,856  INFO [main] BANKING:38 - Chrome Browser Opened
+ 2022-01-26 19:36:28,553  INFO [main] BANKING:54 - URL Opened
+ 2022-01-26 19:36:28,640  INFO [main] BANKING:16 - Entered Username
+ 2022-01-26 19:36:28,694  INFO [main] BANKING:19 - Entered Password
+ 2022-01-26 19:36:29,865  INFO [main] BANKING:26 - User Logged In
+ 2022-01-26 19:36:29,865  INFO [main] BANKING:27 - Login Test Passed
+ 2022-01-26 19:36:29,956 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:29,959 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+ 2022-01-26 19:36:29,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+ 2022-01-26 19:36:29,962 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+ 2022-01-26 19:36:30,086 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,086 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+ 2022-01-26 19:36:30,087 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+ 2022-01-26 19:36:30,087 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+ 2022-01-26 19:36:30,090 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,090 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+ 2022-01-26 19:36:30,092 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+ 2022-01-26 19:36:30,092 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+ 2022-01-26 19:36:30,098 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,099 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+ 2022-01-26 19:36:30,099 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+ 2022-01-26 19:36:30,100 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+ 2022-01-26 19:36:30,107 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,108 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+ 2022-01-26 19:36:30,108 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+ 2022-01-26 19:36:30,108 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+ 2022-01-26 19:36:30,118 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,118 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+ 2022-01-26 19:36:30,118 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+ 2022-01-26 19:36:30,119 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+ 2022-01-26 19:36:30,128 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,129 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+ 2022-01-26 19:36:30,129 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+ 2022-01-26 19:36:30,129 DEBUG [main] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+ 2022-01-26 19:36:30,131 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,132 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+ 2022-01-26 19:36:30,132 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+ 2022-01-26 19:36:30,133 DEBUG [main] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+ 2022-01-26 19:36:30,135 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,135 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+ 2022-01-26 19:36:30,135 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+ 2022-01-26 19:36:30,136 DEBUG [main] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+ 2022-01-26 19:36:30,138 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,138 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+ 2022-01-26 19:36:30,139 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+ 2022-01-26 19:36:30,139 DEBUG [main] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+ 2022-01-26 19:36:30,144 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-01-26 19:36:30,144 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+ 2022-01-26 19:36:30,145 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+ 2022-01-26 19:36:30,145 DEBUG [main] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Abhis/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+ 2022-01-26 19:39:10,818  INFO [main] BANKING:38 - Chrome Browser Opened
+ 2022-01-26 19:39:14,837  INFO [main] BANKING:54 - URL Opened
+ 2022-01-26 19:39:14,924  INFO [main] BANKING:16 - Entered Username
+ 2022-01-26 19:39:14,973  INFO [main] BANKING:19 - Entered Password
+ 2022-01-26 19:39:16,029  INFO [main] BANKING:26 - User Logged In
+ 2022-01-26 19:39:16,029  INFO [main] BANKING:27 - Login Test Passed
+ 2022-01-26 19:59:11,829  INFO [main] BANKING:44 - Chrome Browser Opened
+ 2022-01-26 19:59:15,623  INFO [main] BANKING:60 - URL Opened
+ 2022-01-26 19:59:15,714  INFO [main] BANKING:18 - Entered Username
+ 2022-01-26 19:59:15,766  INFO [main] BANKING:21 - Entered Password
+ 2022-01-26 19:59:16,906  INFO [main] BANKING:28 - User Logged In
+ 2022-01-26 19:59:16,907  INFO [main] BANKING:29 - Login Test Passed
+ 2022-01-26 19:59:48,377  INFO [main] BANKING:44 - Chrome Browser Opened
+ 2022-01-26 19:59:56,268  INFO [main] BANKING:60 - URL Opened
+ 2022-01-26 19:59:56,358  INFO [main] BANKING:18 - Entered Username
+ 2022-01-26 19:59:56,419  INFO [main] BANKING:21 - Entered Password
+ 2022-01-26 19:59:57,643  INFO [main] BANKING:75 - Screenshot Captured
+ 2022-01-26 22:11:20,197  INFO [main] BANKING:45 - Chrome Browser Opened
+ 2022-01-26 22:11:23,660  INFO [main] BANKING:63 - URL Opened
+ 2022-01-26 22:11:24,491  INFO [main] BANKING:20 - Username Provided
+ 2022-01-26 22:11:24,543  INFO [main] BANKING:22 - Password Provided
+ 2022-01-26 22:11:28,549  INFO [main] BANKING:37 - User Logged In
+ 2022-01-26 22:11:32,253  INFO [main] BANKING:40 - User Logged out
+ 2022-01-26 22:11:33,802  INFO [main] BANKING:20 - Username Provided
+ 2022-01-26 22:11:33,883  INFO [main] BANKING:22 - Password Provided
+ 2022-01-26 22:11:38,227  INFO [main] BANKING:20 - Username Provided
+ 2022-01-26 22:11:38,321  INFO [main] BANKING:22 - Password Provided
+ 2022-01-26 22:11:45,688  INFO [main] BANKING:20 - Username Provided
+ 2022-01-26 22:11:45,738  INFO [main] BANKING:22 - Password Provided
+ 2022-01-26 22:11:51,256  INFO [main] BANKING:37 - User Logged In
+ 2022-01-26 22:11:56,295  INFO [main] BANKING:40 - User Logged out
+ 2022-01-26 22:11:59,133  INFO [main] BANKING:20 - Username Provided
+ 2022-01-26 22:11:59,231  INFO [main] BANKING:22 - Password Provided
+ 2022-01-26 23:33:06,090  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-26 23:33:10,915  INFO [main] BANKING:64 - URL Opened
+ 2022-01-26 23:33:11,006  INFO [main] BANKING:18 - Entered Username
+ 2022-01-26 23:33:11,064  INFO [main] BANKING:21 - Entered Password
+ 2022-01-26 23:33:12,083  INFO [main] BANKING:24 - User Logged In
+ 2022-01-26 23:33:15,139  INFO [main] BANKING:32 - Providing Customer Details.....
+ 2022-01-26 23:33:30,858  INFO [main] BANKING:50 - Validation Started...
+ 2022-01-26 23:33:30,874  INFO [main] BANKING:57 - Test Passed
+ 2022-01-27 20:45:35,702  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-27 20:45:39,649  INFO [main] BANKING:64 - URL Opened
+ 2022-01-27 20:45:39,738  INFO [main] BANKING:18 - Entered Username
+ 2022-01-27 20:45:39,790  INFO [main] BANKING:21 - Entered Password
+ 2022-01-27 20:45:40,850  INFO [main] BANKING:28 - User Logged In
+ 2022-01-27 20:45:40,850  INFO [main] BANKING:29 - Login Test Passed
+ 2022-01-27 20:45:41,453  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-27 20:45:51,299  INFO [main] BANKING:64 - URL Opened
+ 2022-01-27 20:45:52,019  INFO [main] BANKING:20 - Username Provided
+ 2022-01-27 20:45:52,068  INFO [main] BANKING:22 - Password Provided
+ 2022-01-27 20:45:56,769  INFO [main] BANKING:37 - User Logged In
+ 2022-01-27 20:46:01,057  INFO [main] BANKING:40 - User Logged out
+ 2022-01-27 20:46:02,019  INFO [main] BANKING:20 - Username Provided
+ 2022-01-27 20:46:02,102  INFO [main] BANKING:22 - Password Provided
+ 2022-01-27 20:46:09,169  INFO [main] BANKING:20 - Username Provided
+ 2022-01-27 20:46:09,217  INFO [main] BANKING:22 - Password Provided
+ 2022-01-27 20:46:15,006  INFO [main] BANKING:20 - Username Provided
+ 2022-01-27 20:46:15,085  INFO [main] BANKING:22 - Password Provided
+ 2022-01-27 20:46:18,461  INFO [main] BANKING:37 - User Logged In
+ 2022-01-27 20:46:22,377  INFO [main] BANKING:40 - User Logged out
+ 2022-01-27 20:46:24,255  INFO [main] BANKING:20 - Username Provided
+ 2022-01-27 20:46:24,303  INFO [main] BANKING:22 - Password Provided
+ 2022-01-27 20:46:30,937  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-27 20:46:34,398  INFO [main] BANKING:64 - URL Opened
+ 2022-01-27 20:46:34,461  INFO [main] BANKING:18 - Entered Username
+ 2022-01-27 20:46:34,509  INFO [main] BANKING:21 - Entered Password
+ 2022-01-27 20:46:35,540  INFO [main] BANKING:24 - User Logged In
+ 2022-01-27 20:46:38,589  INFO [main] BANKING:32 - Providing Customer Details.....
+ 2022-01-27 20:46:52,052  INFO [main] BANKING:50 - Validation Started...
+ 2022-01-27 20:46:52,065  INFO [main] BANKING:57 - Test Passed
+ 2022-01-28 10:52:42,856  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 10:52:47,616  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 10:52:47,849  INFO [main] BANKING:18 - Entered Username
+ 2022-01-28 10:52:47,942  INFO [main] BANKING:21 - Entered Password
+ 2022-01-28 10:52:49,387  INFO [main] BANKING:28 - User Logged In
+ 2022-01-28 10:52:49,388  INFO [main] BANKING:29 - Login Test Passed
+ 2022-01-28 10:52:50,166  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 10:52:54,485  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 10:52:55,846  INFO [main] BANKING:20 - Username Provided
+ 2022-01-28 10:52:55,918  INFO [main] BANKING:22 - Password Provided
+ 2022-01-28 10:53:00,230  INFO [main] BANKING:37 - User Logged In
+ 2022-01-28 10:53:04,724  INFO [main] BANKING:40 - User Logged out
+ 2022-01-28 10:53:06,191  INFO [main] BANKING:20 - Username Provided
+ 2022-01-28 10:53:06,500  INFO [main] BANKING:22 - Password Provided
+ 2022-01-28 10:53:12,040  INFO [main] BANKING:20 - Username Provided
+ 2022-01-28 10:53:12,120  INFO [main] BANKING:22 - Password Provided
+ 2022-01-28 10:53:17,578  INFO [main] BANKING:20 - Username Provided
+ 2022-01-28 10:53:17,718  INFO [main] BANKING:22 - Password Provided
+ 2022-01-28 10:53:24,359  INFO [main] BANKING:37 - User Logged In
+ 2022-01-28 10:53:29,002  INFO [main] BANKING:40 - User Logged out
+ 2022-01-28 10:53:30,857  INFO [main] BANKING:20 - Username Provided
+ 2022-01-28 10:53:30,941  INFO [main] BANKING:22 - Password Provided
+ 2022-01-28 10:53:39,866  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 10:53:44,064  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 10:53:44,211  INFO [main] BANKING:18 - Entered Username
+ 2022-01-28 10:53:44,333  INFO [main] BANKING:21 - Entered Password
+ 2022-01-28 10:53:45,721  INFO [main] BANKING:24 - User Logged In
+ 2022-01-28 10:53:48,854  INFO [main] BANKING:32 - Providing Customer Details.....
+ 2022-01-28 10:54:02,482  INFO [main] BANKING:50 - Validation Started...
+ 2022-01-28 10:54:02,509  INFO [main] BANKING:57 - Test Passed
+ 2022-01-28 13:53:34,830  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 13:53:38,729  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 13:53:38,816  INFO [main] BANKING:18 - Entered Username
+ 2022-01-28 13:53:38,881  INFO [main] BANKING:21 - Entered Password
+ 2022-01-28 13:53:39,966  INFO [main] BANKING:28 - User Logged In
+ 2022-01-28 13:53:39,967  INFO [main] BANKING:29 - Login Test Passed
+ 2022-01-28 13:53:41,031  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 13:53:44,965  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 13:53:45,052  INFO [main] BANKING:18 - Entered Username
+ 2022-01-28 13:53:45,114  INFO [main] BANKING:21 - Entered Password
+ 2022-01-28 13:53:46,182  INFO [main] BANKING:24 - User Logged In
+ 2022-01-28 13:53:49,267  INFO [main] BANKING:32 - Providing Customer Details.....
+ 2022-01-28 13:53:59,449  INFO [main] BANKING:50 - Validation Started...
+ 2022-01-28 13:53:59,464  INFO [main] BANKING:57 - Test Passed
+ 2022-01-28 13:56:01,129  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 13:56:08,902  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 13:56:09,036  INFO [main] BANKING:18 - Entered Username
+ 2022-01-28 13:56:09,102  INFO [main] BANKING:21 - Entered Password
+ 2022-01-28 13:56:10,172  INFO [main] BANKING:28 - User Logged In
+ 2022-01-28 13:56:10,173  INFO [main] BANKING:29 - Login Test Passed
+ 2022-01-28 13:56:11,270  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-01-28 13:56:14,651  INFO [main] BANKING:64 - URL Opened
+ 2022-01-28 13:56:14,726  INFO [main] BANKING:18 - Entered Username
+ 2022-01-28 13:56:14,800  INFO [main] BANKING:21 - Entered Password
+ 2022-01-28 13:56:15,853  INFO [main] BANKING:24 - User Logged In
+ 2022-01-28 13:56:18,941  INFO [main] BANKING:32 - Providing Customer Details.....
+ 2022-01-28 13:56:30,804  INFO [main] BANKING:50 - Validation Started...
+ 2022-01-28 13:56:30,829  INFO [main] BANKING:57 - Test Passed
+ 
