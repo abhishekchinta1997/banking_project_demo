@@ -11,7 +11,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	
 		
 	@Test
-	public void LoginTest() throws IOException {
+	public void LoginTest() throws IOException, InterruptedException {
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
@@ -34,6 +34,10 @@ public class TC_LoginTest_001 extends BaseClass {
 			Assert.assertTrue(false);
 			logger.info("Login Test Failed");
 		}
+		
+		Thread.sleep(3000);
+		lp.clickLogout();
+		logger.info("User Logged Out");
 		
 	}
 

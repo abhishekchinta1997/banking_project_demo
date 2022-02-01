@@ -276,4 +276,47 @@
  2022-01-28 13:56:18,941  INFO [main] BANKING:32 - Providing Customer Details.....
  2022-01-28 13:56:30,804  INFO [main] BANKING:50 - Validation Started...
  2022-01-28 13:56:30,829  INFO [main] BANKING:57 - Test Passed
+ 2022-02-01 14:15:53,046  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-02-01 14:15:58,962  INFO [main] BANKING:64 - URL Opened
+ 2022-02-01 14:15:59,057  INFO [main] BANKING:18 - Entered Username
+ 2022-02-01 14:15:59,108  INFO [main] BANKING:21 - Entered Password
+ 2022-02-01 14:16:00,216  INFO [main] BANKING:28 - User Logged In
+ 2022-02-01 14:16:00,216  INFO [main] BANKING:29 - Login Test Passed
+ 2022-02-01 14:16:06,552  INFO [main] BANKING:40 - User Logged Out
+ 2022-02-01 14:21:55,425  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-02-01 14:22:01,101  INFO [main] BANKING:64 - URL Opened
+ 2022-02-01 14:22:01,184  INFO [main] BANKING:18 - Entered Username
+ 2022-02-01 14:22:01,237  INFO [main] BANKING:21 - Entered Password
+ 2022-02-01 14:22:02,345  INFO [main] BANKING:28 - User Logged In
+ 2022-02-01 14:22:02,346  INFO [main] BANKING:29 - Login Test Passed
+ 2022-02-01 14:22:06,711  INFO [main] BANKING:40 - User Logged Out
+ 2022-02-01 14:24:11,763  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-02-01 14:24:21,346  INFO [main] BANKING:64 - URL Opened
+ 2022-02-01 14:24:21,447  INFO [main] BANKING:18 - Entered Username
+ 2022-02-01 14:24:21,509  INFO [main] BANKING:21 - Entered Password
+ 2022-02-01 14:24:23,043  INFO [main] BANKING:28 - User Logged In
+ 2022-02-01 14:24:23,043  INFO [main] BANKING:29 - Login Test Passed
+ 2022-02-01 14:24:27,318  INFO [main] BANKING:40 - User Logged Out
+ 2022-02-01 14:28:29,220  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-02-01 14:28:32,787  INFO [main] BANKING:64 - URL Opened
+ 2022-02-01 14:28:32,871  INFO [main] BANKING:18 - Entered Username
+ 2022-02-01 14:28:32,926  INFO [main] BANKING:21 - Entered Password
+ 2022-02-01 14:28:33,966  INFO [main] BANKING:28 - User Logged In
+ 2022-02-01 14:28:33,966  INFO [main] BANKING:29 - Login Test Passed
+ 2022-02-01 14:28:37,686  INFO [main] BANKING:40 - User Logged Out
+ 2022-02-01 14:30:04,650  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-02-01 14:30:08,147  INFO [main] BANKING:64 - URL Opened
+ 2022-02-01 14:30:08,247  INFO [main] BANKING:18 - Entered Username
+ 2022-02-01 14:30:08,298  INFO [main] BANKING:21 - Entered Password
+ 2022-02-01 14:30:09,372  INFO [main] BANKING:28 - User Logged In
+ 2022-02-01 14:30:09,373  INFO [main] BANKING:29 - Login Test Passed
+ 2022-02-01 14:30:13,080  INFO [main] BANKING:40 - User Logged Out
+ 2022-02-01 14:30:15,174  INFO [main] BANKING:73 - Chrome Browser Closed
+ 2022-02-01 14:32:56,797  INFO [main] BANKING:46 - Chrome Browser Opened
+ 2022-02-01 14:33:00,598  INFO [main] BANKING:64 - URL Opened
+ 2022-02-01 14:33:00,684  INFO [main] BANKING:18 - Entered Username
+ 2022-02-01 14:33:00,742  INFO [main] BANKING:21 - Entered Password
+ 2022-02-01 14:33:01,940  INFO [main] BANKING:28 - User Logged In
+ 2022-02-01 14:33:01,941  INFO [main] BANKING:29 - Login Test Passed
+ 2022-02-01 14:33:05,693  INFO [main] BANKING:40 - User Logged Out
  

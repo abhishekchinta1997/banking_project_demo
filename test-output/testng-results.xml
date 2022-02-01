@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-27T20:45:34 IST" name="Banking" finished-at="2022-01-27T20:46:52 IST" duration-ms="77514">
+  <suite started-at="2022-02-01T14:32:55 IST" name="Banking" finished-at="2022-02-01T14:33:07 IST" duration-ms="12024">
     <groups>
     </groups>
-    <test started-at="2022-01-27T20:45:34 IST" name="Banking Application Test" finished-at="2022-01-27T20:46:52 IST" duration-ms="77514">
-      <class name="com.banking.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.banking.testCases.TC_AddCustomerTest_003@4fb0f2b9]" started-at="2022-01-27T20:46:30 IST" name="setUp" finished-at="2022-01-27T20:46:34 IST" duration-ms="4014" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.banking.testCases.TC_AddCustomerTest_003@4fb0f2b9]" started-at="2022-01-27T20:46:34 IST" name="addNewCustomer" finished-at="2022-01-27T20:46:52 IST" duration-ms="17667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.testCases.TC_AddCustomerTest_003@4fb0f2b9]" started-at="2022-01-27T20:46:52 IST" name="teardown" finished-at="2022-01-27T20:46:52 IST" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.banking.testCases.TC_AddCustomerTest_003 -->
+    <test started-at="2022-02-01T14:32:55 IST" name="Banking Application Test" finished-at="2022-02-01T14:33:07 IST" duration-ms="12024">
       <class name="com.banking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@6356695f]" started-at="2022-01-27T20:45:34 IST" name="setUp" finished-at="2022-01-27T20:45:39 IST" duration-ms="4909" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@61862a7f]" started-at="2022-02-01T14:32:55 IST" name="setUp" finished-at="2022-02-01T14:33:00 IST" duration-ms="4757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,238 +18,70 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@6356695f]" started-at="2022-01-27T20:45:39 IST" name="LoginTest" finished-at="2022-01-27T20:45:40 IST" duration-ms="1196" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@61862a7f]" started-at="2022-02-01T14:33:00 IST" name="LoginTest" finished-at="2022-02-01T14:33:05 IST" duration-ms="5090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@6356695f]" started-at="2022-01-27T20:45:40 IST" name="teardown" finished-at="2022-01-27T20:45:40 IST" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@61862a7f]" started-at="2022-02-01T14:33:05 IST" name="tearDown" finished-at="2022-02-01T14:33:07 IST" duration-ms="2020" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
+  (Session info: chrome=97.0.4692.99): You Have Succesfully Logged Out!!
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ABHISHEK', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45bab435e0f41483eeacdcabf63ec5b8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
+  (Session info: chrome=97.0.4692.99): You Have Succesfully Logged Out!!
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ABHISHEK', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45bab435e0f41483eeacdcabf63ec5b8
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+at com.banking.testCases.BaseClass.tearDown(BaseClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.banking.testCases.TC_LoginTest_001 -->
-      <class name="com.banking.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:45:40 IST" name="setUp" finished-at="2022-01-27T20:45:51 IST" duration-ms="10383" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:45:51 IST" name="LoginDDT" data-provider="LoginData" finished-at="2022-01-27T20:46:01 IST" duration-ms="10006" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr382581]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[EhezahY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:46:01 IST" name="LoginDDT" data-provider="LoginData" finished-at="2022-01-27T20:46:09 IST" duration-ms="7148" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fsgdfg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[fjvhjvk45]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.banking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:46:09 IST" name="LoginDDT" data-provider="LoginData" finished-at="2022-01-27T20:46:14 IST" duration-ms="5838" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[knvnlxddh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kjkviu55]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.banking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:46:14 IST" name="LoginDDT" data-provider="LoginData" finished-at="2022-01-27T20:46:24 IST" duration-ms="9252" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr382581]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[EhezahY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:46:24 IST" name="LoginDDT" data-provider="LoginData" finished-at="2022-01-27T20:46:30 IST" duration-ms="6126" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[oiffof]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[oihf51]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.banking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@4fb61f4a]" started-at="2022-01-27T20:46:30 IST" name="teardown" finished-at="2022-01-27T20:46:30 IST" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.banking.testCases.TC_LoginDDT_002 -->
     </test> <!-- Banking Application Test -->
   </suite> <!-- Banking -->
 </testng-results>

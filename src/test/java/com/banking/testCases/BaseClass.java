@@ -33,7 +33,7 @@ public class BaseClass {
 	public static Logger logger;
 	
 	@Parameters("browser") //pass parameters from xml file to open desired browser
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setUp(String br) {
 		
 		logger = Logger.getLogger("BANKING");
@@ -65,9 +65,19 @@ public class BaseClass {
 	}
 	
 	
-	@AfterClass
-	public void teardown() {
-		driver.close();
+	@AfterClass(alwaysRun = true)
+	public void tearDown() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		driver.close(); //closes the browser
+		try {
+			driver.quit();
+		}
+		catch(Exception e) {
+			logger.info("Chrome Browser Closed Already");
+			e.printStackTrace();
+		}
+		logger.info("Chrome Browser Closed");
 	}
 	
 	public void takeScreenshot(String testCaseName, WebDriver driver) throws IOException {

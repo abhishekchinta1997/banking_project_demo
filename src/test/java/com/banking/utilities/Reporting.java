@@ -85,20 +85,9 @@ public class Reporting extends TestListenerAdapter{
 		
 	}
 
-	
-
 	@Override
 	public void onFinish(ITestContext testContext) {
 		
 		extent.flush();
 	}
-
-	@Override
-	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		super.onTestStart(result);
-	}
-	
-	
-
 }

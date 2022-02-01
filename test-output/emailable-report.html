@@ -9,25 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Banking</th></tr>
-<tr><td><a href="#t0">Banking Application Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">77,514</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Banking Application Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,024</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Banking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Banking Application Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.banking.testCases.TC_LoginDDT_002</td><td><a href="#m0">LoginDDT</a></td><td rowspan="3">1643296561966</td><td rowspan="3">7148</td></tr><tr class="failedeven"><td><a href="#m1">LoginDDT</a></td></tr><tr class="failedeven"><td><a href="#m2">LoginDDT</a></td></tr><tr><th colspan="4">Banking Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.banking.testCases.TC_AddCustomerTest_003</td><td><a href="#m3">addNewCustomer</a></td><td rowspan="1">1643296594399</td><td rowspan="1">17667</td></tr><tr class="passedodd"><td rowspan="2">com.banking.testCases.TC_LoginDDT_002</td><td><a href="#m4">LoginDDT</a></td><td rowspan="2">1643296551959</td><td rowspan="2">10006</td></tr><tr class="passedodd"><td><a href="#m5">LoginDDT</a></td></tr><tr class="passedeven"><td rowspan="1">com.banking.testCases.TC_LoginTest_001</td><td><a href="#m6">LoginTest</a></td><td rowspan="1">1643296539654</td><td rowspan="1">1196</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Banking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Banking Application Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.banking.testCases.TC_LoginTest_001</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1643706185704</td><td rowspan="1">2020</td></tr><tr><th colspan="4">Banking Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.banking.testCases.TC_LoginTest_001</td><td><a href="#m1">LoginTest</a></td><td rowspan="1">1643706180604</td><td rowspan="1">5090</td></tr></tbody>
 </table>
-<h2>Banking Application Test</h2><h3 id="m0">com.banking.testCases.TC_LoginDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>fsgdfg</td><td>fjvhjvk45</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.banking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+<h2>Banking Application Test</h2><h3 id="m0">com.banking.testCases.TC_LoginTest_001#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
+  (Session info: chrome=97.0.4692.99): You Have Succesfully Logged Out!!
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ABHISHEK&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45bab435e0f41483eeacdcabf63ec5b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+	at com.banking.testCases.BaseClass.tearDown(BaseClass.java:72)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.banking.testCases.TC_LoginDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>oiffof</td><td>oihf51</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.banking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.banking.testCases.TC_LoginDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>knvnlxddh</td><td>kjkviu55</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.banking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.banking.testCases.TC_AddCustomerTest_003#addNewCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.banking.testCases.TC_LoginDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr382581</td><td>EhezahY</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.banking.testCases.TC_LoginDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr382581</td><td>EhezahY</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.banking.testCases.TC_LoginTest_001#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.banking.testCases.TC_LoginTest_001#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
