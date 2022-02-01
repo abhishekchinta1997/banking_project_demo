@@ -9,11 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Banking</th></tr>
-<tr><td><a href="#t0">Banking Application Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31,308</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Banking Application Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,487</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Banking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Banking Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.banking.testCases.TC_AddCustomerTest_003</td><td><a href="#m0">addNewCustomer</a></td><td rowspan="1">1643358374652</td><td rowspan="1">16177</td></tr><tr class="passedodd"><td rowspan="1">com.banking.testCases.TC_LoginTest_001</td><td><a href="#m1">LoginTest</a></td><td rowspan="1">1643358368908</td><td rowspan="1">1265</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Banking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Banking Application Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.banking.testCases.TC_LoginTest_001</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1643721256157</td><td rowspan="1">2047</td></tr><tr><th colspan="4">Banking Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.banking.testCases.TC_LoginTest_001</td><td><a href="#m1">LoginTest</a></td><td rowspan="1">1643721249960</td><td rowspan="1">6188</td></tr></tbody>
 </table>
-<h2>Banking Application Test</h2><h3 id="m0">com.banking.testCases.TC_AddCustomerTest_003#addNewCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Banking Application Test</h2><h3 id="m0">com.banking.testCases.TC_LoginTest_001#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
+  (Session info: chrome=97.0.4692.99): You Have Succesfully Logged Out!!
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ABHISHEK&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1221522c4b1c7920d88828510c820887
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+	at com.banking.testCases.BaseClass.tearDown(BaseClass.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.banking.testCases.TC_LoginTest_001#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

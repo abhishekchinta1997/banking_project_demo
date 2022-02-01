@@ -5,7 +5,7 @@
     <classes>
       <class name="com.banking.testCases.TC_LoginTest_001">
         <methods>
-          <include name="teardown"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="LoginTest"/>
         </methods>

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T14:32:55 IST" name="Banking" finished-at="2022-02-01T14:33:07 IST" duration-ms="12024">
+  <suite started-at="2022-02-01T17:31:38 IST" name="Banking" finished-at="2022-02-01T17:31:52 IST" duration-ms="13698">
     <groups>
     </groups>
-    <test started-at="2022-02-01T14:32:55 IST" name="Banking Application Test" finished-at="2022-02-01T14:33:07 IST" duration-ms="12024">
+    <test started-at="2022-02-01T17:31:38 IST" name="Banking Application Test" finished-at="2022-02-01T17:31:52 IST" duration-ms="13698">
       <class name="com.banking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@61862a7f]" started-at="2022-02-01T14:32:55 IST" name="setUp" finished-at="2022-02-01T14:33:00 IST" duration-ms="4757" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@399f45b1]" started-at="2022-02-01T17:31:38 IST" name="setUp" finished-at="2022-02-01T17:31:44 IST" duration-ms="5726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@61862a7f]" started-at="2022-02-01T14:33:00 IST" name="LoginTest" finished-at="2022-02-01T14:33:05 IST" duration-ms="5090" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@399f45b1]" started-at="2022-02-01T17:31:44 IST" name="LoginTest" finished-at="2022-02-01T17:31:50 IST" duration-ms="5792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@61862a7f]" started-at="2022-02-01T14:33:05 IST" name="tearDown" finished-at="2022-02-01T14:33:07 IST" duration-ms="2020" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@399f45b1]" started-at="2022-02-01T17:31:50 IST" name="tearDown" finished-at="2022-02-01T17:31:52 IST" duration-ms="2027" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
@@ -30,8 +30,8 @@
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ABHISHEK', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 45bab435e0f41483eeacdcabf63ec5b8]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: debba585c58c09d226d0eadba1ab8d7c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
@@ -39,8 +39,8 @@ Session ID: 45bab435e0f41483eeacdcabf63ec5b8]]>
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ABHISHEK', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 45bab435e0f41483eeacdcabf63ec5b8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Abhis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: debba585c58c09d226d0eadba1ab8d7c
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)

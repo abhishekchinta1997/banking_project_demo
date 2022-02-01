@@ -37,6 +37,8 @@ public class TC_LoginTest_001 extends BaseClass {
 		
 		Thread.sleep(3000);
 		lp.clickLogout();
+		driver.switchTo().alert().accept(); //close logout alert
+		driver.switchTo().defaultContent();
 		logger.info("User Logged Out");
 		
 	}
