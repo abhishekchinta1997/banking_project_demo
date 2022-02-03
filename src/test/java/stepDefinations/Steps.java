@@ -64,8 +64,9 @@ public class Steps extends BaseClass {
 	}
 
 	@When("User click Logout")
-	public void user_click_logout() {
+	public void user_click_logout() throws InterruptedException {
 	    lp.clickLogout();
+	    Thread.sleep(2000);
 	    driver.switchTo().alert().accept(); //close logout alert
 		driver.switchTo().defaultContent();
 
